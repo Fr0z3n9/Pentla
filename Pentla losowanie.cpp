@@ -7,7 +7,7 @@ int main() {
 	srand(time(NULL));
 	int i,x,min=100,max=0;
 	float suma=0;
-	for (i=0 ; i<100 ; i++){
+	for (i=0 ; i<150 ; i++){
 		x = rand()%100;
 		cout << x << ",";
 		suma = suma + x;
